@@ -8,11 +8,18 @@ const menu = [
   { id: 5,  name: "South Indian Meals",   category: "meals",     price: 150, veg: true,  rating: 4.3, spice: { level: 1 }, inStock: true },
   { id: 6,  name: "Paneer Butter Masala", category: "meals",     price: 180, veg: true,  rating: 4.5, spice: { level: 1 }, badge: "New", inStock: true },
   { id: 7,  name: "Fish Curry Meals",     category: "meals",     price: 240, veg: false, rating: 4.4, spice: { level: 3 }, inStock: false },
-  { id: 8,  name: "Samosa (2 pcs)",       category: "snacks",    price: 40,  veg: true,  rating: 4.1, spice: { level: 1 }, inStock: true },
-  { id: 9,  name: "Chicken 65",           category: "snacks",    price: 160, veg: false, rating: 4.7, spice: { level: 3 }, inStock: true },
-  { id: 10, name: "Filter Coffee",        category: "drinks",    price: 30,  veg: true,  rating: 4.9, badge: "Bestseller", inStock: true },
-  { id: 11, name: "Masala Chai",          category: "drinks",    price: 25,  veg: true,  rating: 4.6, inStock: true },
-  { id: 12, name: "Fresh Lime Soda",      category: "drinks",    price: 50,  veg: true,  rating: 4.0, inStock: false }
+  { id: 8,  name: "Samosa",               category: "snacks",    price: 15,  veg: true,  rating: 4.2, spice: { level: 1 }, inStock: true },
+  { id: 9,  name: "Veg Puff",             category: "snacks",    price: 20,  veg: true,  rating: 4.1, inStock: true },
+  { id: 10, name: "French Fries",         category: "snacks",    price: 60,  veg: true,  rating: 4.5, badge: "Bestseller", inStock: true },
+  { id: 11, name: "Sandwich",             category: "snacks",    price: 50,  veg: true,  rating: 4.3, inStock: true },
+  { id: 12, name: "Bajji",               category: "snacks",    price: 25,  veg: true,  rating: 4.0, spice: { level: 1 }, inStock: true },
+  { id: 13, name: "Cookies",             category: "snacks",    price: 20,  veg: true,  rating: 4.2, inStock: true },
+  { id: 14, name: "Tea",                 category: "drinks",    price: 12,  veg: true,  rating: 4.5, badge: "Bestseller", inStock: true },
+  { id: 15, name: "Coffee",             category: "drinks",    price: 20,  veg: true,  rating: 4.6, inStock: true },
+  { id: 16, name: "Fresh Lime Juice",   category: "drinks",    price: 30,  veg: true,  rating: 4.4, inStock: true },
+  { id: 17, name: "Badam Milk",         category: "drinks",    price: 35,  veg: true,  rating: 4.7, badge: "New", inStock: true },
+  { id: 18, name: "Cold Coffee",        category: "drinks",    price: 60,  veg: true,  rating: 4.5, inStock: true },
+  { id: 19, name: "Milkshake",          category: "drinks",    price: 70,  veg: true,  rating: 4.8, inStock: true }
 ];
 
 export const coupons = {
